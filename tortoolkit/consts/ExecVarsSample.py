@@ -18,7 +18,7 @@ except:
         OWNER_ID = 1773311819
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = https://bold-silence-0eed.shikari.workers.dev/0:/
+        GD_INDEX_URL = "https://bold-silence-0eed.shikari.workers.dev/0:/"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
