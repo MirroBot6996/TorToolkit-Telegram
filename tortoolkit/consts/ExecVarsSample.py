@@ -71,7 +71,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 0
+        MAX_TORRENT_SIZE = 100
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -84,7 +84,7 @@ except:
         USETTINGS_IN_PRIVATE = False
 
         # Torrent max time to collect metadata in seconds
-        TOR_MAX_TOUT = 1
+        TOR_MAX_TOUT = 200
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
