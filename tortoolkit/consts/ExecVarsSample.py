@@ -48,7 +48,7 @@ except:
         MEGA_PASS = None
 
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/"
+        RCLONE_BASE_DIR = "rclone.conf"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -59,10 +59,10 @@ except:
         RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
-        DEFAULT_TIMEOUT = "leech"
+        DEFAULT_TIMEOUT = "rclone"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = "rclone.conf"
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = "shikari-mirror"
