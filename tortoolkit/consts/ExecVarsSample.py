@@ -21,7 +21,7 @@ except:
         GD_INDEX_URL = "https://bold-silence-0eed.shikari.workers.dev/0:/"
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1700000000
@@ -48,7 +48,7 @@ except:
         MEGA_PASS = None
 
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "rclone.conf"
+        RCLONE_BASE_DIR = "/"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
