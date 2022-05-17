@@ -78,7 +78,7 @@ except:
         BOT_CMD_POSTFIX = "@shikari_mirror_bot" 
 
         # Time out for the status Delete.
-        STATUS_DEL_TOUT = -1
+        STATUS_DEL_TOUT = 100000
 
         # Allow the user settings to be accessed in private
         USETTINGS_IN_PRIVATE = False
